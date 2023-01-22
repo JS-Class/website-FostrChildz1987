@@ -16,7 +16,12 @@ p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.25em;
 }
-ul{
+#honors{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    background-color: rgb(255, 72, 72);
+}
+#copyright{
+    font-size: 1.25em;
+    background-color: blueviolet;
 }
