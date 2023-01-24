@@ -16,6 +16,17 @@ p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.25em;
 }
+nav{
+    background-color: black;
+    line-height: 2em;
+    display:block
+}
+nav li{
+    display: inline;
+    padding-right: 2.5em;
+    list-style-type: none;
+}
+
 #honors{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -24,4 +35,18 @@ p{
 #copyright{
     font-size: 1.25em;
     background-color: blueviolet;
+}
+
+nav a:link{
+    color: white;
+    text-decoration: none;
+}
+nav a:visited{
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a:active{
+    color: blueviolet;
 }
