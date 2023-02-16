@@ -50,3 +50,12 @@ nav a:hover{
 nav a:active{
     color: blueviolet;
 }
+table, th, td {
+    border: 1px solid black;
+  }
+table{
+    background-color: gray;
+}
+.head{
+    font-weight: bold;
+}
