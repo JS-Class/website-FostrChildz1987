@@ -59,3 +59,8 @@ table{
 th{
     font-weight: bold;
 }
+form{
+    background-color: gray;
+    border-style: double;
+    border-width: 10px;
+}
