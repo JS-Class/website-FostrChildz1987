@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jaden Bowers</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">Page 2</a></li>
+            <li><a href="table.html">CCP Courses</a></li>
+            <li><a href="pizza.html">Order Pizza</a></li>
+        </ul>
+    </nav>
+
+    <form id="pizza_form" action="" method="post">
+        <p>&emsp;Pizza Order Information</p>
+        <p>&emsp;Customer Name: <input type="text" name="name" id="name"></p>
+        <p>&emsp;Address: <input type="text" name="address" id="address" size="75"></p>
+        <p>&emsp;Phone Number: <input type="text" name="phone" id="phone"></p>
+        <p>&emsp;Pizza Size: <br> &emsp;
+            <input type="radio" name="size" id="small">
+            <label for="small">Small</label>
+            <input type="radio" name="size" id="medium">
+            <label for="medium">Medium</label>
+            <input type="radio" name="size" id="large">
+            <label for="large">Large</label></p>
+        <p>&emsp;Pizza Sides: <br> &emsp;
+            <input type="checkbox" name="side" id="pep">
+            <label for="pep">Pepperoni</label>
+            <input type="checkbox" name="side" id="ham">
+            <label for="ham">Ham</label>
+            <input type="checkbox" name="side" id="sau">
+            <label for="sau">Sausage</label>
+            <input type="checkbox" name="side" id="bac">
+            <label for="bac">Bacon</label>
+            <input type="checkbox" name="side" id="chi">
+            <label for="chi">Chicken</label>
+        <p>&emsp;Notes to Cook or Driver: <br> &emsp;
+            <textarea name="notes" id="notes" cols="30" rows="5"></textarea></p>
+        
+        <p>&emsp;<input type="submit" name="submit" id="submit" value="Submit Order"></p>
+    </form>
+</body>
+</html>
